@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include
-
+from pybo import views
 from pybo.views import base_views
 
 urlpatterns = [

@@ -141,4 +141,5 @@ LOGIN_REDIRECT_URL = '/'
 # 로그아웃시 이동하는 URL
 LOGOUT_REDIRECT_URL = '/'
 
-CSRF_TRUSTED_ORIGINS = ["https://port-0-jumpjjango-dihik2mlizr7eev.sel4.cloudtype.app/",]
+
+CSRF_TRUSTED_ORIGINS = ["https://port-0-jumpjjango-dihik2mlizr7eev.sel4.cloudtype.app",]
