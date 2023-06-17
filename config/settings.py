@@ -21,12 +21,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-&*!kt(oi9utyipbl7qpf^y#*#t$mp!x_frj!h%pnbn3*f_2^^k'
+#SECRET_KEY = 'django-insecure-&*!kt(oi9utyipbl7qpf^y#*#t$mp!x_frj!h%pnbn3*f_2^^k'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -133,3 +133,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = '/'
 # 로그아웃시 이동하는 URL
 LOGOUT_REDIRECT_URL = '/'
+
+CSRF_TRUSTED_ORIGINS = ["https://port-0-jumpjjango-dihik2mlizr7eev.sel4.cloudtype.app/",]
